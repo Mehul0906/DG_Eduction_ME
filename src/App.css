@@ -592,6 +592,24 @@ section.offer_section {
 .about_img img {
   border-radius: 10px;
 }
+.home_page_img-fullstack
+{
+  background-image: url("../public/img/fsbg.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+/* .home_page_img-frotend
+{
+  background-image: url("../public/img/FE.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.home_page_img-backend
+{
+  background-image: url("../public/img/BE.jpeg");
+  background-size: cover;
+  background-position: center;
+} */
 .home_page_img {
   background-image: url("../public/img/home2.jpg");
   background-size: cover;
@@ -607,7 +625,7 @@ section.offer_section {
   background-image: url("../public/img/home6.jpeg");
 }
 .home_area {
-  height: 345px;
+  height: 400px;
   position: relative;
   z-index: 1;
   text-align: center;
@@ -1461,6 +1479,8 @@ p {
 @media (max-width: 450px) {
   ul.courses_icon_img {
     flex-direction: column;
+    width: auto;
+    text-align: center;
   }
 
   ul.courses_icon_img li {
@@ -1631,7 +1651,10 @@ p {
     padding: 20px;
   }
   ul.courses_icon_img li {
-    width: 29%;
+    /* width: 35%; */
+    width: 55%;
+    text-align: center;
+    margin: auto;
   }
 
   ul.team_col_details {

@@ -10,8 +10,7 @@ function Full_stack() {
     }, []);
     return (
         <>
-            <div className='home_area home_page_img'>
-
+            <div className='home_area home_page_img-fullstack'>
                 <div className='about_home'>
                     <h1 className='about_us' data-aos="zoom-in" data-aos-duration="500">Full-Stack developer</h1>
                 </div>
@@ -22,14 +21,14 @@ function Full_stack() {
                         <div className="about_img" data-aos="fade-right"
                             data-aos-duration="3000">
 
-                            <img src="./img/full_stack2.png" alt="" />
+                            <img src="./img/full_stack2.png" alt="imag not show" />
                         </div>
                         <div className="about_details" data-aos="fade-left"
                             data-aos-duration="3000">
                             <h2>Full-Stack developer</h2>
                             <p style={{textAlign:"justify"}}>Our full stack development course combines the best practices in web development to equip you with the knowledge and skills needed to create dynamic web applications.</p>
                             <div className='course_button'>
-                                <button>Course Duration <span>12 Months</span></button>
+                                <button>Course Duration <span>14 Months</span></button>
                                 <button>Daily Time <span>2 Hours</span></button>
                             </div>
                             <div className='include_course'>
@@ -49,26 +48,20 @@ function Full_stack() {
             <section className='courses_icon'>
                 <div className='container'>
                     <ul className='courses_icon_img'>
-                        <li data-aos="fade-up"
-                            data-aos-duration="3000"><img src="./img/c.jpg" alt="" /><p>C</p></li>
-                        <li data-aos="fade-up"
-                            data-aos-duration="3000"><img src="./img/c++.jpg" alt="" /><p>C++</p></li>
-                        <li data-aos="fade-up"
-                            data-aos-duration="3000"><img src="./img/Html.png" alt="" /><p>HTML5</p></li>
-                        <li data-aos="fade-up"
-                            data-aos-duration="3000"><img src="./img/css.jpg" alt="" /><p>CSS3</p></li>
-                        <li data-aos="fade-up"
-                            data-aos-duration="3000"><img src="./img/bootstrap.png" alt="" /><p>Bootstrap</p></li>
-                        <li data-aos="fade-up"
-                            data-aos-duration="3000"><img src="./img/javascript.png" alt="" /><p>Javascript</p></li>
-                        <li data-aos="fade-up"
-                            data-aos-duration="3000"><img src="./img/tailwind.png" alt="" /><p>Tailwind Css</p></li>
+                    <li data-aos="fade-up" data-aos-duration="3000"><img src="./img/c.jpg" alt="" /><p>C</p></li>
+                    <li data-aos="fade-up"  data-aos-duration="3000"><img src="./img/c++.jpg" alt="" /><p>C++</p></li>    
+                    <li data-aos="fade-up" data-aos-duration="3000"><img src="./img/Html.png" alt="" /><p>HTML5</p></li>
+                     <li data-aos="fade-up" data-aos-duration="3000"><img src="./img/css.jpg" alt="" /><p>CSS3</p></li>
+                        <li data-aos="fade-up" data-aos-duration="3000"><img src="./img/bootstrap.png" alt="" /><p>Bootstrap</p></li>
+                        <li data-aos="fade-up" data-aos-duration="3000"><img src="./img/javascript.png" alt="" /><p>Javascript</p></li>
+                        {/* <li data-aos="fade-up"
+                            data-aos-duration="3000"><img src="./img/tailwind.png" alt="" /><p>Tailwind Css</p></li> */}
                         <li data-aos="fade-up"
                             data-aos-duration="3000"><img src="./img/react js.png" alt="" /><p>React js</p></li>
                         <li data-aos="fade-up"
-                            data-aos-duration="3000"><img src="./img/mysql.jpg" alt="" /><p>MySql</p></li>
-                        <li data-aos="fade-up"
                             data-aos-duration="3000"><img src="./img/node.png" alt="" /><p>Node js</p></li>
+                                                    <li data-aos="fade-up"
+                            data-aos-duration="3000"><img src="./img/Expressjs.png" alt="" style={{width: "200px"}}/><p>Express</p></li>
                         <li data-aos="fade-up"
                             data-aos-duration="3000"><img src="./img/mongo.png" alt="" /><p>Mongo DB</p></li>
                     </ul>
@@ -171,7 +164,7 @@ function Full_stack() {
                             </h2>
                             <div id="collapsethree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p> <FaRegCircleCheck />                               Introduction to HTML5</p>
+                                    <p> <FaRegCircleCheck />Introduction To HTML Language</p>
 
                                     <p><FaRegCircleCheck /> Formatting Tags</p>
 
@@ -334,7 +327,7 @@ function Full_stack() {
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        {/* <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
                                     Tailwind CSS
@@ -382,7 +375,7 @@ function Full_stack() {
 
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
@@ -444,30 +437,30 @@ function Full_stack() {
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsnine" aria-expanded="false" aria-controls="collapsnine">
-                                    MySQL
+                                    Express.js
                                 </button>
                             </h2>
                             <div id="collapsnine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p> <FaRegCircleCheck />Introduction to MYSQL </p>
-                                    <p><FaRegCircleCheck /> Syntax </p>
-                                    <p><FaRegCircleCheck />Cloud applications</p>
-                                    <p>  <FaRegCircleCheck />Content management </p>
-                                    <p> <FaRegCircleCheck />Ecommerce </p>
+                                    <p> <FaRegCircleCheck />Introduction to Express.js </p>
+                                    <p><FaRegCircleCheck /> Install Express (Freamwork) </p>
+                                    <p><FaRegCircleCheck /> Crud Operations</p>
+                                    <p>  <FaRegCircleCheck />Create Static</p>
+                                    <p> <FaRegCircleCheck />Middleware </p>
                                     <p><FaRegCircleCheck />Saas and isvs  </p>
                                     <p> <FaRegCircleCheck />Social platforms  </p>
                                     <p> <FaRegCircleCheck /> Create database </p>
-                                    <p><FaRegCircleCheck /> Create table</p>
-                                    <p><FaRegCircleCheck /> MySQL Cookbook </p>
-                                    <p>  <FaRegCircleCheck />Alter table </p>
-                                    <p> <FaRegCircleCheck />Delete table  </p>
+                                    {/* <p><FaRegCircleCheck /> Create table</p> */}
+                                    {/* <p><FaRegCircleCheck /> MySQL Cookbook </p> */}
+                                    {/* <p>  <FaRegCircleCheck />Alter table </p> */}
+                                    {/* <p> <FaRegCircleCheck />Delete table  </p> */}
                                     <p><FaRegCircleCheck />Drop database </p>
-                                    <p> <FaRegCircleCheck />Index</p>
-                                    <p> <FaRegCircleCheck />Insert into </p>
-                                    <p><FaRegCircleCheck /> MySQL aliases</p>
-                                    <p><FaRegCircleCheck />Overview </p>
+                                    {/* <p> <FaRegCircleCheck />Index</p> */}
+                                    {/* <p> <FaRegCircleCheck />Insert into </p> */}
+                                    {/* <p><FaRegCircleCheck /> MySQL aliases</p> */}
+                                    {/* <p><FaRegCircleCheck />Overview </p> */}
                                     <p>  <FaRegCircleCheck />SHOW database </p>
-                                    <p> <FaRegCircleCheck />UPDATE table</p>
+                                    {/* <p> <FaRegCircleCheck />UPDATE table</p> */}
                                 </div>
                             </div>
                         </div>
@@ -542,9 +535,6 @@ function Full_stack() {
                                 </div>
                             </div>
                         </div>
-
-
-
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwelve" aria-expanded="false" aria-controls="collapsetwelve">

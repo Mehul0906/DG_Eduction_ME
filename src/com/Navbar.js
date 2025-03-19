@@ -231,10 +231,10 @@ function Navbar() {
                           <Link to="/backend">Master in Back End Development</Link>
                         </li>
                         <li onClick={handleLinkClick}>
-                          <Link to="/fronted">Master in Web Designing</Link>
+                          <Link to="/webdesignfs">Master in Web Designing</Link>
                         </li>
                         <li onClick={handleLinkClick}>
-                          <Link to="/backend">Master in Web Development</Link>
+                          <Link to="/webdevelopmentfs">Master in Web Development</Link>
                         </li>
                         <li onClick={handleLinkClick}>
                           <Link to="/flutter">Flutter Development</Link>{" "}

@@ -11,7 +11,7 @@ function Backend() {
     }, []);
     return (
         <>
-            <div className='home_area home_page_img'>
+            <div className='home_area home_page_img-fullstack'>
 
                 <div className='about_home'>
                     <h1 className='about_us' data-aos="zoom-in" data-aos-duration="500">Backend Developer</h1>
@@ -58,7 +58,7 @@ function Backend() {
                         <li data-aos="fade-up"
                             data-aos-duration="3000"><img src="./img/javascript.png" alt="" /><p>Javascript</p></li>
                         <li data-aos="fade-up"
-                            data-aos-duration="3000"><img src="./img/mysql.jpg" alt="" /><p>MySql</p></li>
+                            data-aos-duration="3000"><img src="./img/Expressjs.png" alt="" style={{width: "200px"}}/><p>Express</p></li>
                         <li data-aos="fade-up"
                             data-aos-duration="3000"><img src="./img/node.png" alt="" /><p>Node js</p></li>
                         <li data-aos="fade-up"
@@ -198,30 +198,21 @@ function Backend() {
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
-                                    MySQL
+                                Express.js
                                 </button>
                             </h2>
                             <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p> <FaRegCircleCheck />Introduction to MYSQL </p>
-                                    <p><FaRegCircleCheck /> Syntax </p>
-                                    <p><FaRegCircleCheck />Cloud applications</p>
-                                    <p>  <FaRegCircleCheck />Content management </p>
-                                    <p> <FaRegCircleCheck />Ecommerce </p>
-                                    <p><FaRegCircleCheck />Saas and isvs  </p>
-                                    <p> <FaRegCircleCheck />Social platforms  </p>
-                                    <p> <FaRegCircleCheck /> Create database </p>
-                                    <p><FaRegCircleCheck /> Create table</p>
-                                    <p><FaRegCircleCheck /> MySQL Cookbook </p>
-                                    <p>  <FaRegCircleCheck />Alter table </p>
-                                    <p> <FaRegCircleCheck />Delete table  </p>
-                                    <p><FaRegCircleCheck />Drop database </p>
-                                    <p> <FaRegCircleCheck />Index</p>
-                                    <p> <FaRegCircleCheck />Insert into </p>
-                                    <p><FaRegCircleCheck /> MySQL aliases</p>
-                                    <p><FaRegCircleCheck />Overview </p>
-                                    <p>  <FaRegCircleCheck />SHOW database </p>
-                                    <p> <FaRegCircleCheck />UPDATE table</p>
+                                    <p> <FaRegCircleCheck />Introduction to Express.js </p>
+                                                                        <p><FaRegCircleCheck /> Install Express (Freamwork) </p>
+                                                                        <p><FaRegCircleCheck /> Crud Operations</p>
+                                                                        <p>  <FaRegCircleCheck />Create Static</p>
+                                                                        <p> <FaRegCircleCheck />Middleware </p>
+                                                                        <p><FaRegCircleCheck />Saas and isvs  </p>
+                                                                        <p> <FaRegCircleCheck />Social platforms  </p>
+                                                                        <p> <FaRegCircleCheck /> Create database </p>
+                                                                        <p><FaRegCircleCheck />Drop database </p>
+                                                                                                            <p>  <FaRegCircleCheck />SHOW database </p>
                                 </div>
                             </div>
                         </div>

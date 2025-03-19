@@ -1,10 +1,11 @@
+
 import React, { useEffect } from 'react'
 import Footer from '../Footer'
 import { FaRegCircleCheck } from "react-icons/fa6";
 import { FaCheck } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
-function Fronted() {
+function WebDesignFS() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -13,7 +14,7 @@ function Fronted() {
             <div className='home_area home_page_img-fullstack'>
 
                 <div className='about_home'>
-                    <h1 className='about_us' data-aos="zoom-in" data-aos-duration="500">Frontend Developer</h1>
+                    <h1 className='about_us' data-aos="zoom-in" data-aos-duration="500">Master in Web Design</h1>
                 </div>
             </div>
             <section className='course_section'>
@@ -26,7 +27,7 @@ function Fronted() {
                         </div>
                         <div className="about_details" data-aos="fade-left"
                             data-aos-duration="3000">
-                            <h2>Frontend Developer</h2>
+                            <h2>Master in Web Design</h2>
                             <p style={{textAlign:"justify"}}>DGmultimedia is a premier institute based in Surat, offering specialized courses in digital marketing and IT training to propel your career forward.</p>
                             <p style={{textAlign:"justify"}}>Founded by industry experts with a passion for nurturing talent and shaping successful futures.</p>
                             <div className='course_button'>
@@ -60,10 +61,10 @@ function Fronted() {
                             data-aos-duration="3000"><img src="./img/javascript.png" alt="" /><p>Javascript</p></li>
                         <li data-aos="fade-up"
                             data-aos-duration="3000"><img src="./img/react js.png" alt="" /><p>React js</p></li>
-                                                    {/* <li data-aos="fade-up"
-                            data-aos-duration="3000"><img src="./img/tailwind.png" alt="" /><p>Photoshop</p></li> 
+                                                    <li data-aos="fade-up"
+                            data-aos-duration="3000"><img src="./img/photoshop.png" alt="" /><p>Adobe Photoshop</p></li> 
                                                      <li data-aos="fade-up"
-                            data-aos-duration="3000"><img src="./img/tailwind.png" alt="" /><p>Figma</p></li>  */}
+                            data-aos-duration="3000"><img src="./img/figma.jpg" alt="" /><p>Figma</p></li> 
                     </ul>
 
                 </div>
@@ -248,55 +249,7 @@ function Fronted() {
                                 </div>
                             </div>
                         </div>
-                        {/* <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
-                                    Tailwind CSS
-                                </button>
-                            </h2>
-                            <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p> <FaRegCircleCheck />Introduction to Tailwind CSS </p>
-
-                                    <p><FaRegCircleCheck /> Syntax </p>
-
-                                    <p>  <FaRegCircleCheck />Tailwind CSS Layout </p>
-
-                                    <p> <FaRegCircleCheck />Tailwind CSS Flexbox</p>
-
-                                    <p><FaRegCircleCheck />Tailwind CSS Grid  </p>
-
-                                    <p> <FaRegCircleCheck />Tailwind CSS Alignment  </p>
-
-                                    <p> <FaRegCircleCheck /> Tailwind CSS Spacing </p>
-
-                                    <p><FaRegCircleCheck /> Tailwind CSS Sizing</p>
-
-                                    <p><FaRegCircleCheck /> Tailwind CSS Typography </p>
-
-                                    <p>  <FaRegCircleCheck />Tailwind CSS Backgrounds </p>
-
-                                    <p> <FaRegCircleCheck />Tailwind CSS Borders  </p>
-
-                                    <p><FaRegCircleCheck />Tailwind CSS Effects  </p>
-
-                                    <p> <FaRegCircleCheck />Tailwind Filters  </p>
-
-                                    <p> <FaRegCircleCheck />Tailwind CSS Tables </p>
-
-                                    <p><FaRegCircleCheck /> Tailwind CSS Transitions and Animation</p>
-                                    <p><FaRegCircleCheck />Tailwind CSS Transforms </p>
-
-                                    <p>  <FaRegCircleCheck />Tailwind CSS Interactivity </p>
-
-                                    <p> <FaRegCircleCheck />Tailwind CSS SVG</p>
-
-                                    <p><FaRegCircleCheck />Tailwind CSS Screen Readers  </p>
-
-
-                                </div>
-                            </div>
-                        </div> */}
+                        
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapseThree">
@@ -355,7 +308,53 @@ function Fronted() {
                                 </div>
                             </div>
                         </div>
+                         <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
+                                    Adobe Photoshop
+                                </button>
+                            </h2>
+                            <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                <p> <FaRegCircleCheck />Introduction to Photoshop</p>
+                                    <p><FaRegCircleCheck /> Color Correction</p>
+                                    <p>  <FaRegCircleCheck />Image Editing </p>
+                                    <p> <FaRegCircleCheck />Typography</p>
+                                    <p> <FaRegCircleCheck />Character Design</p>
+                                    <p><FaRegCircleCheck /> Mockup Design</p>
+                                    <p><FaRegCircleCheck /> Album Page Design</p>
+                                    <p>  <FaRegCircleCheck />Product Banner Design </p>
+                                    <p>  <FaRegCircleCheck />Marketing post Design </p>
+                                    <p> <FaRegCircleCheck />Visiting Card Design</p>
+                                    <p> <FaRegCircleCheck />Brochure Design</p>
 
+
+                                </div>
+                            </div>
+                        </div> 
+                        {/* <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                   Adobe Photoshop
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p> <FaRegCircleCheck />Introduction to Photoshop</p>
+                                    <p><FaRegCircleCheck /> Color Correction</p>
+                                    <p>  <FaRegCircleCheck />Image Editing </p>
+                                    <p> <FaRegCircleCheck />Typography</p>
+                                    <p> <FaRegCircleCheck />Character Design</p>
+                                    <p><FaRegCircleCheck /> Mockup Design</p>
+                                    <p><FaRegCircleCheck /> Album Page Design</p>
+                                    <p>  <FaRegCircleCheck />Product Banner Design </p>
+                                    <p>  <FaRegCircleCheck />Marketing post Design </p>
+                                    <p> <FaRegCircleCheck />Visiting Card Design</p>
+                                    <p> <FaRegCircleCheck />Brochure Design</p>
+                                </div>
+                            </div>
+
+                        </div> */}
 
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -386,4 +385,5 @@ function Fronted() {
     )
 }
 
-export default Fronted
+export default WebDesignFS
+

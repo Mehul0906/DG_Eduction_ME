@@ -15,6 +15,8 @@ import Graphics from "./pages/dropdown_pages/Graphics";
 import Java from "./pages/dropdown_pages/Java";
 import Ui_ux from "./pages/dropdown_pages/Ui_ux";
 import GIMS from "./pages/dropdown_pages/GIMS";
+import WebDesignFS from "./pages/dropdown_pages/WebDesignFS";
+import WebDevelopment from "./pages/dropdown_pages/WebDevelopment";
 
 import Trending_Courses from "./pages/Trending_Courses";
 import Advance_digital_marketing from "./pages/dropdown_pages/Advance_digital_marketing";
@@ -38,6 +40,7 @@ import Animation_2d from "./pages/dropdown_pages/Animation_2d";
 import Animation_3d from "./pages/dropdown_pages/Animation_3d";
 import Personality from "./pages/dropdown_pages/Personality";
 import Animation_master from "./pages/dropdown_pages/Animation_master";
+// import WebDesignFS from "./pages/dropdown_pages/WebDesignFS";
 
 function Router() {
   return (
@@ -98,6 +101,8 @@ function Router() {
           <Route path="animation_master" element={<Animation_master />}></Route>
           <Route path="cyber" element={<Cyber />}></Route>
           <Route path="personality" element={<Personality />}></Route>
+          <Route path="webdesignfs" element={<WebDesignFS />}></Route>
+          <Route path="webdevelopmentfs" element={<WebDevelopment />}></Route>
         </Routes>
       </HashRouter>
     </>
