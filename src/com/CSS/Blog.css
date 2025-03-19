@@ -1,0 +1,53 @@
+.blog_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .blog_col_card {
+    width: 30%;
+    margin: 14px;
+    background: white;
+    box-shadow: 0 0 20px #cccccc;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .blog_col_card img {
+    height: 225px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .blog_col_card:hover img {
+    transform: scale(1.1);
+  }
+  
+  .blog_section,
+  .contact_section {
+    padding: 100px 0;
+    overflow: hidden;
+  }
+  
+  .blog_details h4 {
+    font-size: 21px;
+    font-weight: 600;
+  }
+  
+  .blog_details span {
+    color: #9335b6;
+  }
+  
+  .blog_details p {
+    font-size: 16px;
+  }
+  
+  .blog_details {
+    padding: 20px;
+  }
+  
+  .blog_details span {
+    display: flex;
+    align-items: end;
+  }
